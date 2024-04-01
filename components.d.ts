@@ -9,6 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     Filter: typeof import('./src/components/Filter.vue')['default']
     FilterRow: typeof import('./src/components/FilterRow.vue')['default']
+    FilterSearch: typeof import('./src/components/FilterSearch.vue')['default']
     FiltersRow: typeof import('./src/components/FiltersRow.vue')['default']
     FilterTag: typeof import('./src/components/FilterTag.vue')['default']
     FilterToggle: typeof import('./src/components/FilterToggle.vue')['default']

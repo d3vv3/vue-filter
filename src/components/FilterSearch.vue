@@ -10,7 +10,9 @@
           <FilterToggle @click="toggleFilters"/>
         </v-col>
       </v-row>
-      <FiltersRow :filters="filters" v-if="showFilters" />
+      <v-expand-transition>
+        <FilterRow :filters="filters" v-if="showFilters" />
+      </v-expand-transition>
     </v-responsive>
   </v-container>
 </template>

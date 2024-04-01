@@ -21,7 +21,7 @@
 
 <script lang="ts">
   export default {
-    name: 'FiltersRow',
+    name: 'FilterRow',
     props: {
       filters: {
         type: Object,

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <Filter :filters="filters"/>
+      <FilterSearch :filters="filters"/>
     </v-main>
   </v-app>
 </template>
