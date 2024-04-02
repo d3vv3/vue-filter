@@ -28,5 +28,6 @@
     margin-top: 0px;
     display: inline-block;
     cursor: pointer;
+    border: 2px solid #d3d3d3;
   }
 </style>

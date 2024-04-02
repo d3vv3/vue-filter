@@ -16,5 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid #d3d3d3;
   }
 </style>
