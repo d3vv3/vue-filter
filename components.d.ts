@@ -15,6 +15,7 @@ declare module 'vue' {
     FiltersRow: typeof import('./src/components/FiltersRow.vue')['default']
     FilterTag: typeof import('./src/components/filterSearch/FilterTag.vue')['default']
     FilterToggle: typeof import('./src/components/filterSearch/FilterToggle.vue')['default']
+    Header: typeof import('./src/components/Header.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     MultiCheckbox: typeof import('./src/components/filterSearch/filters/MultiCheckbox.vue')['default']
     MultiOption: typeof import('./src/components/MultiOption.vue')['default']

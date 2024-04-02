@@ -5,7 +5,7 @@
         <template v-slot:activator="{ props }">
           <FilterTag :name="capitalizedFirstName" v-bind="props" />
         </template>
-        <v-card min-width="300" class="rounded-xl">
+        <v-card min-width="300" class="rounded-xl custom-card">
           <v-col class="pa-4">
             <h3 class="pb-4">{{ capitalizedFirstName }}</h3>
             <v-col>

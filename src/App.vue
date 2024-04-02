@@ -1,7 +1,12 @@
 <template>
   <v-app>
     <v-main>
-      <FilterSearch :filters="filters"/>
+      <v-container class="fill-height">
+        <v-responsive class="flex justify-center overflow-visible">
+          <Header/>
+          <FilterSearch :filters="filters"/>
+        </v-responsive>
+      </v-container>
     </v-main>
   </v-app>
 </template>
