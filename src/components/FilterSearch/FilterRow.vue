@@ -20,9 +20,9 @@
 
 
 <script lang="ts">
-  import Range from '@/components/FilterSearch/filters/Range.vue';
-  import MultiCheckbox from '@/components/FilterSearch/filters/MultiCheckbox.vue';
-  import DateRange from '@/components/FilterSearch/filters/DateRange.vue';
+  import Range from './filters/Range.vue';
+  import MultiCheckbox from './filters/MultiCheckbox.vue';
+  import DateRange from './filters/DateRange.vue';
   export default {
     name: 'FilterRow',
     props: {
