@@ -22,5 +22,6 @@ declare module 'vue' {
     Range: typeof import('./src/components/filterSearch/filters/Range.vue')['default']
     Search: typeof import('./src/components/Search.vue')['default']
     SearchBox: typeof import('./src/components/filterSearch/SearchBox.vue')['default']
+    ThemeToggle: typeof import('./src/components/ThemeToggle.vue')['default']
   }
 }

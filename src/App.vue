@@ -3,6 +3,7 @@
     <v-main>
       <v-container class="fill-height">
         <v-responsive class="flex justify-center overflow-visible">
+          <ThemeToggle/>
           <Header/>
           <FilterSearch :filters="filters"/>
         </v-responsive>
