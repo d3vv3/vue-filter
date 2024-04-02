@@ -13,6 +13,9 @@
 </template>
 
 <script setup lang="ts">
+
+  import FilterSearch from '@/components/FilterSearch/Index.vue'
+
   // Example people to test the search filters
   const people = [
     { name: 'Pepe', age: 42, salary: 1200, single: true, skills: ['Python', 'C', 'Rust', 'Go'], availability: new Date('2024-06-01')},

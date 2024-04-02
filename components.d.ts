@@ -8,20 +8,21 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     DatePicker: typeof import('./src/components/filterSearch/filters/DatePicker.vue')['default']
-    DateRange: typeof import('./src/components/filterSearch/filters/DateRange.vue')['default']
+    DateRange: typeof import('./src/components/FilterSearch/filters/DateRange.vue')['default']
     Filter: typeof import('./src/components/Filter.vue')['default']
-    FilterRow: typeof import('./src/components/filterSearch/FilterRow.vue')['default']
+    FilterRow: typeof import('./src/components/FilterSearch/FilterRow.vue')['default']
     FilterSearch: typeof import('./src/components/FilterSearch.vue')['default']
     FiltersRow: typeof import('./src/components/FiltersRow.vue')['default']
-    FilterTag: typeof import('./src/components/filterSearch/FilterTag.vue')['default']
-    FilterToggle: typeof import('./src/components/filterSearch/FilterToggle.vue')['default']
+    FilterTag: typeof import('./src/components/FilterSearch/FilterTag.vue')['default']
+    FilterToggle: typeof import('./src/components/FilterSearch/FilterToggle.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    MultiCheckbox: typeof import('./src/components/filterSearch/filters/MultiCheckbox.vue')['default']
+    Index: typeof import('./src/components/FilterSearch/Index.vue')['default']
+    MultiCheckbox: typeof import('./src/components/FilterSearch/filters/MultiCheckbox.vue')['default']
     MultiOption: typeof import('./src/components/MultiOption.vue')['default']
-    Range: typeof import('./src/components/filterSearch/filters/Range.vue')['default']
+    Range: typeof import('./src/components/FilterSearch/filters/Range.vue')['default']
     Search: typeof import('./src/components/Search.vue')['default']
-    SearchBox: typeof import('./src/components/filterSearch/SearchBox.vue')['default']
+    SearchBox: typeof import('./src/components/FilterSearch/SearchBox.vue')['default']
     ThemeToggle: typeof import('./src/components/ThemeToggle.vue')['default']
   }
 }
