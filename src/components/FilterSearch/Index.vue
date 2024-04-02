@@ -2,7 +2,7 @@
       <v-row class="justify-center align-top">
         <!-- Search input -->
         <v-col class="flex-grow-0">
-          <SearchBox />
+          <SearchBox :autofocus="autofocus"/>
         </v-col>
         <v-col class="flex-grow-0">
           <FilterToggle @click="toggleFilters"/>
@@ -21,6 +21,10 @@
       filters: {
         type: Object,
         default: () => ({}),
+      },
+      autofocus: {
+        type: Boolean,
+        default: false,
       },
     },
     setup() {

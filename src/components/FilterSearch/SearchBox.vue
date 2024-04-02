@@ -6,8 +6,8 @@
     append-inner-icon="mdi-magnify"
     single-line
     rounded
+    :autofocus="autofocus"
   >
-    <!-- TODO: Make autofocus configurable on the parent component -->
   </v-text-field>
 </template>
 
@@ -16,6 +16,10 @@
     name: 'SearchBox',
     props: {
       //
+      autofocus: {
+        type: Boolean,
+        default: false,
+      },
     },
     setup() {
       //
