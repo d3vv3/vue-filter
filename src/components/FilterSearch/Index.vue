@@ -36,6 +36,6 @@
         // Toggle the value of showFilters when clicking on FilterToggle
         this.showFilters = !this.showFilters;
       }
-  }
+    }
   }
   </script>
