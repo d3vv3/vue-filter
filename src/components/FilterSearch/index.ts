@@ -1,2 +1,4 @@
 // Main component export
-export { default as FilterSearch } from './FilterSearch';
+import FilterSearch from './FilterSearch';
+
+export default FilterSearch;

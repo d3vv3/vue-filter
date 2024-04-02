@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 
-import { FilterSearch } from '@/components/FilterSearch'
+import FilterSearch from '@/components/FilterSearch'
 
   // Example people to test the search filters
   const people = [
