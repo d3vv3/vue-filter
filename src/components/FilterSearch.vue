@@ -18,6 +18,7 @@
 </template>
 
 <script lang="ts">
+  import FilterRow from '@/components/filterSearch/FilterRow.vue';
   export default {
     name: 'Filter',
     props: {

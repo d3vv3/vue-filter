@@ -7,17 +7,19 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    DatePicker: typeof import('./src/components/filterSearch/filters/DatePicker.vue')['default']
+    DateRange: typeof import('./src/components/filterSearch/filters/DateRange.vue')['default']
     Filter: typeof import('./src/components/Filter.vue')['default']
-    FilterRow: typeof import('./src/components/FilterRow.vue')['default']
+    FilterRow: typeof import('./src/components/filterSearch/FilterRow.vue')['default']
     FilterSearch: typeof import('./src/components/FilterSearch.vue')['default']
     FiltersRow: typeof import('./src/components/FiltersRow.vue')['default']
-    FilterTag: typeof import('./src/components/FilterTag.vue')['default']
-    FilterToggle: typeof import('./src/components/FilterToggle.vue')['default']
+    FilterTag: typeof import('./src/components/filterSearch/FilterTag.vue')['default']
+    FilterToggle: typeof import('./src/components/filterSearch/FilterToggle.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    MultiCheckbox: typeof import('./src/components/MultiCheckbox.vue')['default']
+    MultiCheckbox: typeof import('./src/components/filterSearch/filters/MultiCheckbox.vue')['default']
     MultiOption: typeof import('./src/components/MultiOption.vue')['default']
-    Range: typeof import('./src/components/Range.vue')['default']
+    Range: typeof import('./src/components/filterSearch/filters/Range.vue')['default']
     Search: typeof import('./src/components/Search.vue')['default']
-    SearchBox: typeof import('./src/components/SearchBox.vue')['default']
+    SearchBox: typeof import('./src/components/filterSearch/SearchBox.vue')['default']
   }
 }

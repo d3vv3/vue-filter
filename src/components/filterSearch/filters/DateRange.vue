@@ -11,16 +11,22 @@
             <v-col>
               <v-row class="flex-row justify-space-between">
                 <v-col>
-                  <v-text-field label="Min" v-model="min"></v-text-field>
+                  <h3>From</h3>
+                  <v-date-picker
+                    v-model="min"
+                    color="primary"
+                    hide-header="true"
+                  ></v-date-picker>
                 </v-col>
                 <v-col>
-                  <v-text-field label="Max" v-model="max"></v-text-field>
+                  <h4>To</h4>
+                  <v-date-picker
+                    v-model="max"
+                    color="primary"
+                    hide-header="true"
+                  ></v-date-picker>
                 </v-col>
               </v-row>
-              <!-- TODO: Add range slider -->
-              <!-- <v-row> -->
-              <!--   <v-range-slider label="age" min="600" max="1600"></v-range-slider> -->
-              <!-- </v-row> -->
             </v-col>
           </v-col>
         </v-card>
@@ -31,7 +37,7 @@
 
 <script lang="ts">
   export default {
-    name: 'RangeFilter',
+    name: 'DateRange',
     props: {
       name: {
         type: String,
@@ -48,8 +54,8 @@
     data() {
       return {
         show: false,
-        min: this.filterData.min ?? Number.NEGATIVE_INFINITY,
-        max: this.filterData.max ?? Number.POSITIVE_INFINITY,
+        min: this.filterData.min ?? new Date().toISOString().split('T')[0],
+        max: this.filterData.max ?? new Date().toISOString().split('T')[0],
       }
     },
     computed: {

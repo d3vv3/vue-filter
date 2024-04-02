@@ -10,16 +10,19 @@
       <!-- Render checkbox filter component -->
       <MultiCheckbox :filterData="filter" :name="key"/>
     </template>
-    <!-- <template v-else-if="filter.type === 'select'"> -->
+    <template v-else-if="filter.type === 'daterange'">
       <!-- Render select filter component -->
-      <!-- <SelectFilter :filterData="filter" /> -->
-    <!-- </template> -->
+      <DateRange :filterData="filter" :name="key"/>
+    </template>
     </v-col>
   </v-row>
 </template>
 
 
 <script lang="ts">
+  import Range from '@/components/filterSearch/filters/Range.vue';
+  import MultiCheckbox from '@/components/filterSearch/filters/MultiCheckbox.vue';
+  import DateRange from '@/components/filterSearch/filters/DateRange.vue';
   export default {
     name: 'FilterRow',
     props: {
