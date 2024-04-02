@@ -11,7 +11,7 @@ declare module 'vue' {
     DateRange: typeof import('./src/components/FilterSearch/filters/DateRange.vue')['default']
     Filter: typeof import('./src/components/Filter.vue')['default']
     FilterRow: typeof import('./src/components/FilterSearch/FilterRow.vue')['default']
-    FilterSearch: typeof import('./src/components/FilterSearch.vue')['default']
+    FilterSearch: typeof import('./src/components/FilterSearch/FilterSearch.vue')['default']
     FiltersRow: typeof import('./src/components/FiltersRow.vue')['default']
     FilterTag: typeof import('./src/components/FilterSearch/FilterTag.vue')['default']
     FilterToggle: typeof import('./src/components/FilterSearch/FilterToggle.vue')['default']
